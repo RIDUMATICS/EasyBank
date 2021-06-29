@@ -4,6 +4,9 @@ const header = document.querySelector('.header');
 const overlay = document.querySelector('.overlay');
 const fadeElems = document.querySelectorAll('.has-fade');
 
+// initiate animate on scroll
+AOS.init();
+
 btnHamburger.addEventListener('click', function(){
   console.log('click hamburger');
 
